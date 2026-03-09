@@ -1,5 +1,3 @@
-Warung Sedap | A Terminal Based Order System
-
 This project is a simple Point of Sale (POS) system I built using Python to simulate a digital menu and ordering process for a local food stall. My main goal was to create a functional interface that allows users to browse a list of traditional Indonesian dishes and drinks, add them to a virtual cart, and calculate a final bill. I wanted to focus on how to manage data in real time as a user interacts with a program, specifically using lists and global variables to keep everything synced up across different functions.
 
 The program starts with a main menu loop where the user can choose to view the food list, pick items, or see their current order. I spent a lot of time on the visual layout of the menu, using Python’s f string formatting to make sure the columns and prices lined up perfectly like a real receipt. When a user picks a number, the item and its price are stored as a nested list. I also included a basic deletion system and a payment function that loops through the entire order to sum up the total cost. It’s a complete cycle from choosing a meal to "paying" the bill.
